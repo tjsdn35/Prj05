@@ -3,9 +3,9 @@ package ex04;
 import java.time.LocalDate;
 
 /*RESCENE
-원이 리브 미나미 메이 제나
-2004 2006 2006   18   17
-리더 보컬 보컬   랩   보컬 
+원이 리브 미나미 메이  제나
+2004 2006 2006   2008  2009
+리더 보컬 보컬   랩    보컬 
 */
 
 class GirMember{
@@ -50,7 +50,7 @@ public class MemberTest {
 		
 		// 배열로 저장해서
 		//1.먼저 저장할 배열을 인원수에 맞게 준비
-		GirMember [] rescArr = new GirMember [5];
+		GirMember [] rescArr = new GirMember [5]; // 배열 생성
 		
 		rescArr[0] = new GirMember("원이", 2004, "리더");    // == resc1
 		rescArr[1] = new GirMember("리브", 2006, "보컬");    // == resc2
@@ -61,7 +61,6 @@ public class MemberTest {
 		for (int i = 0; i < rescArr.length; i++) {
 			rescArr[i].info();
 		}
-		
 		/*
 		rescArr[0].info();
 		rescArr[1].info();		
