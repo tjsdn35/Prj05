@@ -30,7 +30,7 @@ public class TestInterface {
 
 	public static void main(String[] args) {
 		Job job1 = new Job();
-		job1.output();
+		job1.input();
 		job1.process();
 		job1.output();
 
